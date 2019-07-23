@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Performance Task</title>
+  <!-- Custom CSS -->
+  <link href="static/style.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="intro-header">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="intro-message">
+            <h1>Pick your month, find your gemstone.</h1>
+            <hr class="intro-divider">
+            <a href="/about">About Gemstones</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<div class="content-section-a" id="formBody">-->
+    <form method="POST" action="/results">
+      <input type="radio" name="month" value="Garnet"/>January<br>
+      <input type="radio" name="month" value="Amethyst"/>February<br>
+      <input type="radio" name="month" value="Aquamarine"/>March<br>
+      <input type="radio" name="month" value="Diamond"/>April<br>
+      <input type="radio" name="month" value="Emerald"/>May<br>
+      <input type="radio" name="month" value="Pearl"/>June<br>
+      <input type="radio" name="month" value="Ruby"/>July<br>
+      <input type="radio" name="month" value="Peridot"/>August<br>
+      <input type="radio" name="month" value="Sapphire"/>September<br>
+      <input type="radio" name="month" value="Opal"/>October<br>
+      <input type="radio" name="month" value="Topaz"/>November<br>
+      <input type="radio" name="month" value="Turquoise"/>December<br><br>
+      <input type="submit" value="Submit"/>
+    </form>
+  <!--</div>-->
+
+  <!-- /.content-section-a -->
+
+</body>
+
+</html>
